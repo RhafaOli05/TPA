@@ -13,12 +13,12 @@ public class PesoIdeal {
 			if(s.equalsIgnoreCase("f")) {
 				peso=52+(0.67*(a-152.4));
 				System.out.printf("Seu peso ideal é %.1f" ,peso);
-		}else if (s.equalsIgnoreCase("m")){
-			peso=52+(0.75*(a-152.4));
-			System.out.printf("Seu peso ideal é %.1f" ,peso);
-		}else {
-			System.out.println("Letra inválida");
-		}
+		        }else if (s.equalsIgnoreCase("m")){
+				peso=52+(0.75*(a-152.4));
+				System.out.printf("Seu peso ideal é %.1f" ,peso);
+		        }else {
+				System.out.println("Letra inválida");
+			}
 		System.out.println();
 		System.out.println("Deseja continuar? 'S' para sim, 'N' para não");
 		resposta=leia.next();
