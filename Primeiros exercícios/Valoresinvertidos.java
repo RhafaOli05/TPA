@@ -4,9 +4,9 @@ public class ValoresInvertidos {
 		Scanner leia = new Scanner(System.in);
 		int valorA, valorB, c;
 		System.out.println("Digite o valor A");
-		valorA= leia.nextDouble();
+		valorA= leia.nextInt();
 		System.out.println("Digite o valor B");
-		valorB= leia.nextDouble();
+		valorB= leia.nextInt();
 		c=valorA;
 		valorA= valorB;
 		valorB= c;
