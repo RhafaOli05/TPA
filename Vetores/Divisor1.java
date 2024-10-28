@@ -11,7 +11,7 @@ public class Divisor1 {
 		}
 		for(i=0; i<10; i++) {
 			System.out.print("A = " +a[i]+ " ");
-			System.out.print("Divisores de A: [");
+			System.out.println("Divisores de A: [");
 			for(j=1; j<=a[i]; j++) {
 				if(a[i]%j==0) {
 					System.out.print(j + " ");
