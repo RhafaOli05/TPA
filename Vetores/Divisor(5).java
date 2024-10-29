@@ -1,5 +1,5 @@
 import java.util.*;
-public class Divisor1 {
+public class Divisor {
 	public static void main(String[] args) {
 		Scanner leia =new Scanner(System.in);
 		int a[], i, j;
