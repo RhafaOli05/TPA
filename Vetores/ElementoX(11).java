@@ -5,14 +5,14 @@ public class ElementoX {
 		int a[],x,i;
 		a= new int [10];
 		for (i=0;i<10;i++) {
-			System.out.println("Digite o valor do " +(i+1)+ "° número de A");
+			System.out.println("Digite o valor do " +(i+1)+ "Â° nÃºmero de A");
 			a[i]=leia.nextInt();
 		}
-		System.out.println("Digite o valor que você está procurando");
+		System.out.println("Digite o valor que vocÃª estÃ¡ procurando");
 		x=leia.nextInt();
 		for (i=0;i<10;i++) {
 		   if (x==a[i]) {
-			System.out.println(x+" está armazenado na posição " +a[i]+ " de 'A'");
+			System.out.println(x+" estÃ¡ armazenado na posiÃ§Ã£o " +a[i]+ " de 'A'");
 		   }
 		}
 		leia.close();
