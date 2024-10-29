@@ -19,6 +19,7 @@ public class Tabuada {
 	                System.out.println(a[n]+"×"+p+"="+r);
 	            }
 	            n++;
+			leia.close();
 	        }
 	}
 
