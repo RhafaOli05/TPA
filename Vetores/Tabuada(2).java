@@ -8,7 +8,7 @@ public class Tabuada {
 	        
 	        for(i=0;i<5;i++){
 	            System.out.println("Digite o "+(i+1)+"° número");
-	            a[i]=ler.nextInt();
+	            a[i]=leia.nextInt();
 	        }
 	        
 	        for(i=0;i<5;i++){
