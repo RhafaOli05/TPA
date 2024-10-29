@@ -10,6 +10,7 @@ public class Fatorial {
 			a[i]=leia.nextInt();
 			System.out.println();
 			}
+		//calculando fatorial
 		for(i=0; i<15; i++) {
 			f=1;
 			for(j=1; j<=a[i]; j++ ) {
