@@ -2,7 +2,7 @@ import java.util.*;
 public class Tabuada {
 
 	public static void main(String[] args) {
-		    Scanner ler = new Scanner (System.in);
+		    Scanner leia = new Scanner (System.in);
 	        int i,n=0,r,p;
 	        int a[] = new int [5];
 	        
