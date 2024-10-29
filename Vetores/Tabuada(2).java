@@ -7,7 +7,7 @@ public class Tabuada {
 	        int a[] = new int [5];
 	        
 	        for(i=0;i<5;i++){
-	            System.out.println("Digite o "+(i+1)+"° número");
+	            System.out.println("Digite o "+(i+1)+"Â° nÃºmero");
 	            a[i]=ler.nextInt();
 	        }
 	        
@@ -16,7 +16,7 @@ public class Tabuada {
 	            System.out.println("Tabuada do "+a[i]+" :");
 	            for(p=0;p<10;p++){
 	                r=a[n]*p;
-	                System.out.println(a[n]+"×"+p+"="+r);
+	                System.out.println(a[n]+"Ã—"+p+"="+r);
 	            }
 	            n++;
 	        }
