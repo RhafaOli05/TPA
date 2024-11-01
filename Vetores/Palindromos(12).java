@@ -5,13 +5,13 @@ public class Palindromos {
 		int a[], i;
 		a = new int [10];
 		for(i=0; i<10; i++) {
-			System.out.println("Escreva o "+(i+1)+"º número do vetor A");
+			System.out.println("Escreva o "+(i+1)+"Âº nÃºmero do vetor A");
 			a[i]=leia.nextInt();	
 		}
 		if(a[0]==a[9] && a[1]==a[8] && a[2]==a[7] && a[3]==a[6] && a[4]==a[5]) {
-			System.out.println("É Palíndromo");
+			System.out.println("Ã‰ PalÃ­ndromo");
 		}else {
-			System.out.println("Não é Palíndromo");
+			System.out.println("NÃ£o Ã© PalÃ­ndromo");
 		}
 		leia.close();
 	}
